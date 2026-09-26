@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LEAP — Leaders Emerge and Partner</title>
+<meta name="description" content="A regional community of emerging leaders ages 18 to 35 from diverse backgrounds — here to network, grow, and serve.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#" aria-label="LEAP home">LE<svg viewBox="0 -30 100 130" aria-hidden="true"><circle cx="50" cy="-16" r="12"/><path d="M6 100 L39 0 H61 L94 100 H72 L50 32 L28 100Z"/></svg>P <small>Leaders Emerge and Partner</small></a>
+  <nav aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#values">Values</a>
+    <a href="#committees">Committees</a>
+    <a href="#join">Join</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>A connected generation of emerging leaders whose friendships across backgrounds strengthen our region.</h1>
+    <p>LEAP is a regional community of emerging leaders ages 18 to 35 from diverse backgrounds — here to network, grow, and serve. Northern Virginia, founding 2026.</p>
+    <a class="button" href="#committees">See the committees</a>
+  </div>
+  <svg class="contours" viewBox="0 0 600 400" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+    <g fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M-20 300 C 80 260, 140 340, 240 300 S 400 220, 520 280 S 620 340, 640 300"/>
+      <path d="M-20 260 C 90 220, 150 300, 250 260 S 410 180, 530 240 S 620 300, 640 260"/>
+      <path d="M-20 220 C 100 180, 160 260, 260 220 S 420 140, 540 200 S 620 260, 640 220"/>
+      <path d="M-20 180 C 110 140, 170 220, 270 180 S 430 100, 550 160 S 620 220, 640 180"/>
+      <path d="M-20 140 C 120 100, 180 180, 280 140 S 440 60, 560 120 S 620 180, 640 140"/>
+      <path d="M-20 100 C 130 60, 190 140, 290 100 S 450 20, 570 80 S 620 140, 640 100"/>
+      <path d="M60 400 C 120 340, 200 380, 260 340 S 380 300, 460 340 S 560 400, 600 380"/>
+      <path d="M-20 60 C 140 20, 200 100, 300 60 S 460 -20, 580 40"/>
+    </g>
+  </svg>
+</section>
+
+<section class="mv" id="about">
+  <div>
+    <h2>Mission</h2>
+    <p class="serif">Our mission is to offer a platform where emerging leaders from diverse backgrounds come together — building a regional network that opens doors, fosters growth, and gives back.</p>
+  </div>
+  <div>
+    <h2>Vision</h2>
+    <p class="serif">We envision a connected generation of emerging leaders whose friendships across backgrounds strengthen our region.</p>
+  </div>
+</section>
+
+<section class="values" id="values">
+  <h2>What we hold to</h2>
+  <div class="values-list" id="values-list"></div>
+</section>
+
+<section class="committees" id="committees">
+  <div class="committees-head">
+    <h2>Nine committees across one region</h2>
+    <p>Everything LEAP does happens through a committee. Each one runs at least three projects a year, chosen by its own members. Select a point on the map — or a name in the list — to see what the work looks like.</p>
+  </div>
+  <div class="map-wrap">
+    <svg class="map" id="map" viewBox="0 0 800 560" role="img" aria-labelledby="map-title">
+      <title id="map-title">Map of LEAP's nine committees, connected as one network</title>
+      <g class="edges" id="edges"></g>
+      <g class="nodes" id="nodes"></g>
+    </svg>
+    <div class="legend">
+      <ul class="legend-list" id="legend"></ul>
+      <div class="detail" id="detail" hidden aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="join">
+  <h2>Why people join</h2>
+  <div class="why-list" id="why-list"></div>
+  <div class="join">
+    <p class="serif">LEAP is being founded now by young adults and organizations across the region. If you want to be part of a committee — or start one — write to us.</p>
+    <a class="button" href="mailto:hello@leapnova.org">Write to us</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>LEAP — Leaders Emerge and Partner</p>
+  <p>Shaped by its members — every partner and every voice helps set the table.</p>
+  <a href="https://leapnova.org">leapnova.org</a>
+</footer>
+
+<script src="../shared/content.js"></script>
+<script src="app.js"></script>
+<script src="../shared/dev-click.js"></script>
+</body>
+</html>
